@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-01T14:03:29 IST" name="Default suite" finished-at="2021-03-01T14:03:57 IST" duration-ms="27856">
+    <groups>
+      <group name="Regression">
+        <method signature="CreatNewLeadBykeepAllTheFieldsBlankAndSave.creatNewLeadBykeepAllTheFieldsBlankAndSaveTest()[pri:0, instance:com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave@61386958]" name="creatNewLeadBykeepAllTheFieldsBlankAndSaveTest" class="com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2021-03-01T14:03:29 IST" name="Default test" finished-at="2021-03-01T14:03:57 IST" duration-ms="27856">
+      <class name="com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave">
+        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave@61386958]" started-at="2021-03-01T14:03:28 IST" name="configBeforeSuite" finished-at="2021-03-01T14:03:29 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuite -->
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave@61386958]" started-at="2021-03-01T14:03:29 IST" name="configBeforeClass" finished-at="2021-03-01T14:03:35 IST" duration-ms="5876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMtd()[pri:0, instance:com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave@61386958]" started-at="2021-03-01T14:03:35 IST" name="configBeforeMtd" finished-at="2021-03-01T14:03:39 IST" duration-ms="4217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method signature="creatNewLeadBykeepAllTheFieldsBlankAndSaveTest()[pri:0, instance:com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave@61386958]" started-at="2021-03-01T14:03:39 IST" name="creatNewLeadBykeepAllTheFieldsBlankAndSaveTest" finished-at="2021-03-01T14:03:54 IST" duration-ms="14702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatNewLeadBykeepAllTheFieldsBlankAndSaveTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave@61386958]" started-at="2021-03-01T14:03:54 IST" name="configAfterMethod" finished-at="2021-03-01T14:03:56 IST" duration-ms="2783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave@61386958]" started-at="2021-03-01T14:03:56 IST" name="configAfterClass" finished-at="2021-03-01T14:03:57 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave@61386958]" started-at="2021-03-01T14:03:57 IST" name="configAfterSuite" finished-at="2021-03-01T14:03:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.crm.techsan.lead.CreatNewLeadBykeepAllTheFieldsBlankAndSave -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

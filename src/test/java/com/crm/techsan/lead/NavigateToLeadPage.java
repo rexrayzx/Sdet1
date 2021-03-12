@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.techsan.generics.BaseClass;
@@ -23,6 +24,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * @author Rajiv
  *
  */
+@Listeners(com.crm.techsan.generics.ListnerImp.class)
 public class NavigateToLeadPage extends BaseClass{
 	@Test(groups = "Smoke")
 	public void navigateToLeadPageTest() throws Throwable {
@@ -37,5 +39,6 @@ public class NavigateToLeadPage extends BaseClass{
 		CreateLeadPage create=new CreateLeadPage(driver);
 		String title = create.getPageTitle().getText();
 		Assert.assertTrue(title.contains(pageTitle));
+		Assert.fail();
 	}
 }

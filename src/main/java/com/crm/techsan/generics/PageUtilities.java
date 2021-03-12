@@ -284,10 +284,12 @@ public class PageUtilities {
 	 * @param methodName
 	 * @throws IOException
 	 */
-	public void takeScreenShot(String methodName) throws IOException {
+	public String takeScreenShot(String methodName) throws IOException {
 		EventFiringWebDriver event=new EventFiringWebDriver(BaseClass.staticDriver);
 		File src=event.getScreenshotAs(OutputType.FILE);
-		File dest=new File(AutoConstant.screenshotpath+methodName+".PNG");
+		String path=AutoConstant.screenshotpath+methodName+".PNG";
+		File dest=new File(path);
 		Files.copy(src, dest);
+		return path;
 	}
 }
